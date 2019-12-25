@@ -43,5 +43,3 @@ AWS technology consists of a series of interrelated products or services whose r
 `Region Table <https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/>`_ 
 
 
-
-`Save yourself a lot of pain (and money) by choosing your AWS Region wisely <https://www.concurrencylabs.com/blog/choose-your-aws-region-wisely/>`_
