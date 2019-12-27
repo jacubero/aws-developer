@@ -19,9 +19,8 @@ Contents:
 
    Preface <preface>
    Developer Tools Services <developer>
-   AWS Global Infrastructure <global>
-   AWS Services <services>
-   Domain 1: Deployment <deployment>
+   Introduction <intro>
+
 
    *
 
