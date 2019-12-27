@@ -9,9 +9,9 @@ AWS products and services
 
 AWS technology consists of a series of interrelated products or services whose release frecuency varies among services. AWS has significantly increase the number of services and features released during the last years as you can see in figure :ref:`fig-innovation`. You can read `Release Notes <https://aws.amazon.com/releasenotes/>`_ to have a summary of all new features, resolved issues, and known issues in the latest versions of AWS products and services.
 
-.. figure:: /services_d/innovation.png
+.. figure:: /intro_d/innovation.png
    :name: fig-innovation
-   :target: /services_d/innovation.png
+   :target: /intro_d/innovation.png
    :alt: Number of services and features released during the last years
 
     Number of services and features released during the last years
