@@ -10,6 +10,13 @@ Print the *AmazonEC2.csv* file skipping the first 5 rows into the file *AmazonEC
 tail -n +6 <filename>
 
 
+`OpenAPI Specification <https://swagger.io/docs/specification/about/>`_
+
+`Let's Encrytpt <https://letsencrypt.org/>`_
+
+`Zapier <https://zapier.com/>`_
+
+`webhook.site <https://webhook.site/>`_
 
 
 .. _secSDKs:
