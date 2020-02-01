@@ -14,3 +14,5 @@ Script:
 .. literalinclude:: compute_d/describe_instance_types.py
   :language: python
 
+
+`Setting Up Notifications <https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/price-notification.html>`_
