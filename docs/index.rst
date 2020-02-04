@@ -19,9 +19,7 @@ Contents:
 
    Preface <preface>
    Developer Tools Services <developer>
-   Introduction <intro>
-   Adding a compute layer <compute>
-
+   Deployment as Code <deployment>
 
    *
 
