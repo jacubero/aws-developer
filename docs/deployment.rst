@@ -61,4 +61,14 @@ You must choose one of the following deployment configuration types to specify h
 
 * *EC2/On-Premises*: Traffic is shifted from one set of instances in the original environment to a replacement set of instances.
 
+The advantages of using Blue/Green deployment over in-place upgrade strategy are:
 
+Traditionally, with in-place upgrades, it was difficult to validate your new application version in a production deployment while also continuing to run your old version of the application. Blue/green deployments provide a level of isolation between your blue and green application environments. It ensures that spinning up a parallel green environment does not affect resources underpinning your blue environment. This isolation reduces your deployment risk.
+
+After you deploy the green environment, you have the opportunity to validate it. You might do that with test traffic before sending production traffic to the green environment, or by using a very small fraction of production traffic, to better reflect real user traffic. This is called canary analysis or canary testing. If you discover the green environment is not operating as expected, there is no impact on the blue environment. You can route traffic back to it, minimizing impaired operation or downtime, and limiting the blast radius of impact.
+
+This ability to simply roll traffic back to the still-operating blue environment is a key benefit of blue/green deployments. You can roll back to the blue environment at any time during the deployment process. Blue/green deployments also fit well with continuous integration and continuous deployment (CI/CD) workflows, in many cases limiting their complexity. Your deployment automation would have to consider fewer dependencies on an existing environment, state, or configuration. 
+
+In AWS, blue/green deployments also provide cost optimization benefits. You’re not tied to the same underlying resources. So if the performance envelope of the application changes from one version to another, you simply launch the new environment with optimized resources, whether that means fewer resources or just different compute resources. You also don’t have to run an overprovisioned architecture for an extended period of time.
+
+`Blue/Green Deployments on AWS <https://d1.awsstatic.com/whitepapers/AWS_Blue_Green_Deployments.pdf>`_
