@@ -13,3 +13,8 @@ AWS Tools & SDKs
 AWS X-Ray
 *********
 
+
+Amazon Honeycode
+****************
+
+`Amazob Honeycode <https://www.honeycode.aws/>`_
